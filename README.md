@@ -1,6 +1,6 @@
 # HOC для управления темой
 
-[![Deploy React App to GitHub Pages](https://github.com/maks2207/theme_provider/actions/workflows/deploy.yml/badge.svg)](https://github.com/Milka79rus/theme_provider/actions/workflows/deploy.yml)
+[![Deploy React App to GitHub Pages](https://github.com/maks2207/theme_provider/actions/workflows/deploy.yml/badge.svg)](https://github.com/maksim2207/Ra_theme/actions/workflows/deploy.yml)
 
 Учебный проект на React + TypeScript, демонстрирующий паттерн Higher-Order Component (HOC) на примере переключения темы оформления (light/dark), без использования React Context API.
 
