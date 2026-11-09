@@ -1,0 +1,51 @@
+.app {
+  min-height: 100vh;
+  padding: 48px;
+  box-sizing: border-box;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.app--light {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.app--dark {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+.theme-panel {
+  max-width: 600px;
+}
+
+.theme-status {
+  margin: 16px 0 24px;
+  font-size: 18px;
+}
+
+.theme-toggle,
+.themed-button {
+  padding: 10px 16px;
+  border: 1px solid;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.theme-toggle {
+  margin-right: 12px;
+  background-color: transparent;
+  color: inherit;
+  border-color: currentColor;
+}
+
+.themed-button {
+  font-weight: 600;
+}
